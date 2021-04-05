@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LetsMeet">
         <activity android:name=".splashscreen">
-                <intent-filter>
-                    <action android:name="android.intent.action.MAIN" />
+<!--                <intent-filter>-->
+<!--                    <action android:name="android.intent.action.MAIN" />-->
 
-                    <category android:name="android.intent.category.LAUNCHER" />
-                </intent-filter>
+<!--                    <category android:name="android.intent.category.LAUNCHER" />-->
+<!--                </intent-filter>-->
         </activity>
-        <activity android:name=".Menu" />
+        <activity android:name=".Menu">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Login_Screen" />
         <activity android:name=".MainActivity">
 <!--            <intent-filter>-->

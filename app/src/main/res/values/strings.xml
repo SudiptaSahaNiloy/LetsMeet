@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Let\'s Meet</string>
     <string name="app_info">Join our community of 10+ million people all around the world </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="pizzas">
+        <item>Diavolo</item>
+        <item>Funghi</item>
+    </string-array>
+    <string-array name="pastas">
+        <item>Spaghetti</item>
+        <item>Lasagne</item>
+    </string-array>
+    <string name="pizza_tab">Pizza</string>
+    <string name="pasta_tab">Pasta</string>
 </resources>
